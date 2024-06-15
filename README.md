@@ -7,7 +7,7 @@
 - (Task-independent) The GIFNet has been validated on six image fusion tasks.
 - (Input-flexible) The first investigation regarding the application of image fusion for the single modality vision task.
 
-<div align="center">
+<div align="left">
   <img src="images/motivation.png" width="700px" />
   <p>"Using the cross-task interaction of different fusion tasks to extract the task-indepent features is one of our motivations."</p>
 </div>
