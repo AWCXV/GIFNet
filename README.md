@@ -2,9 +2,9 @@
 Thank you very much for the time devoted to handling and reviewing our work.
 
 ## Highlight
-- Without high-level semantics, the interaction of two image fusion tasks is established to obtain excelent performance.
-- (task-independent) The GIFNet has been validated on six image fusion tasks.
-- (input-flexible) The first investigation regarding the application of image fusion for the single modality vision task
+- (Concise model) Without high-level semantics, image fusion tasks interaction is established to achieve excelent performance.
+- (Task-independent) The GIFNet has been validated on six image fusion tasks.
+- (Input-flexible) The first investigation regarding the application of image fusion for the single modality vision task.
 
 <div align="center">
   <img src="images/motivation.png" width="700px" />
