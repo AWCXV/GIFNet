@@ -7,7 +7,7 @@ Thank you very much for the time devoted to handling and reviewing our work.
 - The first investigation regarding of image fusion for the single modality vision task. (input-flexible)
 
 <div align="center">
-  <img src="images/motivation.png" width="800px" />
+  <img src="images/motivation.png" width="700px" />
   <p>"Using the cross-task interaction of different fusion tasks to extract the task-indepent features is one of our motivations."</p>
 </div>
 
