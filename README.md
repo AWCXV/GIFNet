@@ -11,9 +11,17 @@ Thank you very much for the time devoted to handling and reviewing our work.
   <p>"Using the cross-task interaction of different fusion tasks to extract the task-indepent features is one of our motivations."</p>
 </div>
 
-To quickly test our GIFNet on the seen and unsee image fusion tasks, please run the following prompt:
+## Environment
+```
+python 3.8.1
+opencv-python 4.9.0.80
+torch 2.3.0
+matplotlib 3.7.5
+```
 
 ## Usage
+To quickly test our GIFNet on the seen and unsee image fusion tasks, please run the following prompt:
+
 ```
 python demo.py
 ```
