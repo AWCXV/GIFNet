@@ -9,7 +9,7 @@
 
 <div align="left">
   <img src="images/motivation.png" width="700px" />
-  <p>"Using the cross-task interaction of different fusion tasks to extract the task-indepent features is one of our motivations."</p>
+  <p>Fig. 1: Using the cross-task interaction of different fusion tasks to extract the task-indepent features is one of our motivations.</p>
 </div>
 
 ## Environment
