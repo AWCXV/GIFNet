@@ -3,8 +3,8 @@ Thank you very much for the time devoted to handling and reviewing our work.
 
 ## Highlight
 - Without high-level semantics, the interaction of two image fusion tasks is established to obtain excelent performance.
-- (task-independent) The cross-fusion gating mechanism and a shared reconstruction task are introduced to deliver robust generalisation capability. 
-- (input-flexible) The first investigation of image fusion for the single modality vision task. 
+- (task-independent) The GIFNet has been validated on six image fusion tasks.
+- (input-flexible) The first investigation regarding the application of image fusion for the single modality vision task
 
 <div align="center">
   <img src="images/motivation.png" width="700px" />
