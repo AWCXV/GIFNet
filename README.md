@@ -1,5 +1,6 @@
 # GIFNet
-Thank you very much for the time devoted to handling and reviewing our work.
+
+### Thank you very much for the time devoted to handling and reviewing our work.
 
 ## Highlight
 - (Concise model) Without high-level semantics, image fusion tasks interaction is established to achieve excelent performance.
