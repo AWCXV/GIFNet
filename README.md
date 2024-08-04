@@ -3,9 +3,10 @@
 #### Thank you very much for the time devoted to handling and reviewing our work.
 
 ## Highlight
-- (Concise model) Without high-level semantics, image fusion tasks interaction is established to achieve excelent performance.
-- (Task-independent) The GIFNet has been validated on six image fusion tasks.
-- (Input-flexible) The first investigation regarding the application of image fusion for the single modality vision task.
+- **Innovative Training Strategy**: Introduced a three-branch design with a cross-fusion gating mechanism for effective task interaction.
+- **Joint Dataset Creation**: Developed the first RGB-based joint dataset R-MFIV for MFIF and IVIF tasks using a shared reconstruction task and data augmentation.
+- **Efficiency and Versatility**: Offered a low-computation, generalized alternative to current high-computation, task-specific methods.
+- **Groundbreaking Integration**: Pioneered the integration of image fusion with single-modality vision tasks, extending capabilities beyond traditional image fusion.
 
 <div align="left">
   <img src="images/motivation.png" width="700px" />
