@@ -1,9 +1,3 @@
-# -*- coding:utf-8 -*-
-# @Author: Li Hui, Jiangnan University
-# @Email: hui_li_jnu@163.com
-# @File : utils.py
-# @Time : 2020/7/11 15:59
-
 import random
 import numpy as np
 import torch
