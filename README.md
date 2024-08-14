@@ -9,7 +9,7 @@
 - **Groundbreaking Integration**: Pioneered the integration of image fusion with single-modality vision tasks, extending capabilities beyond traditional image fusion.
 
 <div align="center">
-  <img src="images/Motivation_3.png" width="500px" />
+  <img src="images/fig1_motivation.png" width="500px" />
   <p>Fig. 1: The adopted low-level interaction between fusion tasks advances the learning of task-independent image features, leading to more generalised and efficient image fusion.</p>
 </div>
 
