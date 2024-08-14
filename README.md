@@ -10,7 +10,7 @@
 
 <div align="center">
   <img src="images/Fig1_comparison.png" width="500px" />
-  <p>Fig. 1: The adopted low-level interaction between fusion tasks advances the learning of task-independent image features, leading to more generalised and efficient image fusion.</p>
+  <p>Fig. 1: Supporting single-modality tasks, the adopted low-level interaction between fusion tasks advances the learning of task-independent image features, leading to more generalised and efficient image fusion. </p>
 </div>
 
 ## Environment
