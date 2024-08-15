@@ -3,10 +3,11 @@
 #### Thank you very much for the time devoted to handling and reviewing our work.
 
 ## Highlight
-- **Innovative Training Strategy**: Introduced a three-branch design with a cross-fusion gating mechanism for effective task interaction.
-- **Joint Dataset Creation**: Developed the first RGB-based joint dataset R-MFIV for MFIF and IVIF tasks using a shared reconstruction task and data augmentation.
-- **Efficiency and Versatility**: Offered a low-computation, generalized alternative to current high-computation, task-specific methods.
-- **Groundbreaking Integration**: Pioneered the integration of image fusion with single-modality vision tasks, extending capabilities beyond traditional image fusion.
+
+- **Collaborative Training**: Uniquely demonstrates that collaborative training between low-level fusion tasks yields significant performance improvements by leveraging cross-task synergies.
+- **Bridging the Domain Gap**: Introduces a reconstruction task and an augmented RGB-focused joint dataset to improve feature alignment and facilitate effective cross-task collaboration, enhancing model robustness.
+- **Efficiency and Versatility**: Advances efficiency and versatility over multi-task fusion methods by reducing computational costs and eliminating the need for task-specific adaptation.
+- **Single-Modality Enhancement**: Pioneers the integration of image fusion with single-modality enhancement, broadening the flexibility and adaptability of fusion models.
 
 <div align="center">
   <img src="images/Fig1_comparison.png" width="500px" />
