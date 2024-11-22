@@ -10,7 +10,7 @@
 - **Single-Modality Enhancement**: Pioneers the integration of image fusion with single-modality enhancement, broadening the flexibility and adaptability of fusion models.
 
 <div align="center">
-  <img src="images/fig1_11_22.jpg" width="500px" />
+  <img src="images/fig1_11_22.jpg" width="700px" />
   <p>Fig. 1: Supporting single-modality tasks, the adopted low-level interaction between fusion tasks advances the learning of task-agnostic image features, leading to more generalised and efficient image fusion. </p>
 </div>
 
