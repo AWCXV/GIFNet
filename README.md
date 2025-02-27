@@ -1,7 +1,5 @@
 # GIFNet
 
-#### Thank you very much for the time devoted to handling and reviewing our work.
-
 ## Highlight
 
 - **Collaborative Training**: Uniquely demonstrates that collaborative training between low-level fusion tasks yields significant performance improvements by leveraging cross-task synergies.
