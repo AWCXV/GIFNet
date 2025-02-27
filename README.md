@@ -28,7 +28,10 @@ python demo.py
 ## 4 Announcement
 - 2025-02-27 This paper has been accepted by CVPR 2025.
 
-## 5 Highlight
+## 5 Contact Informaiton
+If you have any questions, please contact me at <chunyang_cheng@163.com>.
+
+## 6 Highlight
 
 - **Collaborative Training**: Uniquely demonstrates that collaborative training between low-level fusion tasks yields significant performance improvements by leveraging cross-task synergies.
 - **Bridging the Domain Gap**: Introduces a reconstruction task and an augmented RGB-focused joint dataset to improve feature alignment and facilitate effective cross-task collaboration, enhancing model robustness.
