@@ -8,7 +8,7 @@
 ## 1 GIFNet
 This is the offical implementation for the paper titled "One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion".
 
-Paper (Currently unavailable)
+[Paper](https://arxiv.org/abs/2502.19854)
 
 ## 2 Environment
 ```
