@@ -20,12 +20,19 @@ matplotlib 3.7.5
 
 ## 3 Usage
 
-### The pre-trained model is avaiable in the folder "model"
+#### The pre-trained model is avaiable in the folder "model"
 
+### 3.1 Demo
 To quickly test our GIFNet on the seen and unsee image fusion tasks, please run the following prompt:
 
 ```
 python demo.py
+```
+
+### 3.2 Task _ (todo)
+
+```
+ xxx  ir_path "path/to/ir_img" ....
 ```
 
 ## 4 Announcement
