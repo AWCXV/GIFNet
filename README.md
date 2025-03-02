@@ -39,7 +39,7 @@ python demo.py
 - 2025-02-27 This paper has been accepted by CVPR 2025.
 
 ## 5 Contact Informaiton
-If you have any questions, please contact me at <chunyang_cheng@stu.jiangnan.edu.cn>.
+If you have any questions, please contact me at <chunyang_cheng@163.com>.
 
 ## 6 Highlight
 
