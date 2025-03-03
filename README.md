@@ -11,24 +11,27 @@ This is the offical implementation for the paper titled "One Model for ALL: Low-
 [Paper](https://arxiv.org/abs/2502.19854)
 
 ## 2 Environment
+You can setup the required Anaconda environment by running the following prompts:
+
 ```
-python 3.8.1
-opencv-python 4.9.0.80
-torch 2.3.0
-matplotlib 3.7.5
+conda create -n GIFNet python=3.8.17
+conda activate GIFNet
+pip install -r requirements.txt
 ```
 
 ## 3 Usage
 
 #### The pre-trained model is avaiable in the folder "model"
 
-### IVIF task:
+### Infrared and Visible Image Fusion (IVIF):
+
+(If visible images are stored in the grayscale format, please remove the '--VIS_IS_RGB' prompt.)
 
 ```
 python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
-### MEIF task:
+### Multi-Exposure Image Fusion (MEIF):
 
 ```
 python test.py  --test_ir_root "images/MEIF/ir" --test_vis_root "images/MEIF/vis" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
