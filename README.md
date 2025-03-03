@@ -22,17 +22,16 @@ matplotlib 3.7.5
 
 #### The pre-trained model is avaiable in the folder "model"
 
-### 3.1 Demo
-To quickly test our GIFNet on the seen and unsee image fusion tasks, please run the following prompt:
+### IVIF task:
 
 ```
-python demo.py
+python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
-### 3.2 Task _ (todo)
+### MEIF task:
 
 ```
- xxx  ir_path "path/to/ir_img" ....
+python test.py  --test_ir_root "images/MEIF/ir" --test_vis_root "images/MEIF/vis" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
 ```
 
 ## 4 Announcement
