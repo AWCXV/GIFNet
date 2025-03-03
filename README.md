@@ -31,6 +31,11 @@ pip install -r requirements.txt
 python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
+### Multi-Focus Image Fusion (MFIF):
+```
+python test.py  --test_ir_root "images/MFIF/ir" --test_vis_root "images/MFIF/vis" --save_path "outputsMFIF" --IR_IS_RGB --VIS_IS_RGB
+```
+
 ### Multi-Exposure Image Fusion (MEIF):
 
 ```
