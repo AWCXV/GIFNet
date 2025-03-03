@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## 3 Usage
 
-#### The pre-trained model is avaiable in the folder "model"
+The **single required checkpoint** is avaiable in the folder "model"
 
 ### Infrared and Visible Image Fusion (IVIF):
 
