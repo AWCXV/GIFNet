@@ -178,7 +178,6 @@ def main():
             
             ir_img = transform(ir_img)
             vis_img = transform(vis_img)        
-
             
             if (args.cuda):
                 ir_img = ir_img.cuda();
@@ -195,8 +194,6 @@ def main():
             
             outputFuse_path = os.path.join(output_path, fileName)
             
-            #cv2.imwrite(outputFuse_path, fused_y_or_gray)
-            
             #如果最终结果是彩色图像
             if opt.IR_IS_RGB or opt.VIS_IS_RGB:
                 fuseImage = ycbcr_to_rgb(fused_y_or_gray, vi_img_cb, vi_img_cr);        
@@ -204,7 +201,7 @@ def main():
             else:
             	cv2.imwrite(outputFuse_path, fused_y_or_gray)
                 
-            print('Image->'+ fileName + ' Done......')    
+            print('Image -> '+ fileName + ' Done......')    
             
 if __name__ == '__main__':
     main()
