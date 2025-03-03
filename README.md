@@ -42,6 +42,8 @@ python test.py  --test_ir_root "images/MFIF/ir" --test_vis_root "images/MFIF/vis
 python test.py  --test_ir_root "images/MEIF/ir" --test_vis_root "images/MEIF/vis" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
 ```
 
+More is coming...
+
 ## 4 Announcement
 - 2025-02-27 This paper has been accepted by CVPR 2025.
 
