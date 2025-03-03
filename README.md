@@ -11,11 +11,12 @@ This is the offical implementation for the paper titled "One Model for ALL: Low-
 [Paper](https://arxiv.org/abs/2502.19854)
 
 ## 2 Environment
+Setup the required anaconda environment by running the following prompts (Anaconda):
+
 ```
-python 3.8.1
-opencv-python 4.9.0.80
-torch 2.3.0
-matplotlib 3.7.5
+conda create -n GIFNet python=3.8.17
+conda activate GIFNet
+pip install -r requirements.txt
 ```
 
 ## 3 Usage
