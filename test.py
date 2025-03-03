@@ -144,14 +144,14 @@ def main():
             transforms.ToTensor()  
         ])        
                 
-        ir_path = opt.test_ir_root
-        vis_path = opt.test_vis_root
+        ir_path_root = opt.test_ir_root
+        vis_path_root = opt.test_vis_root
         
-        names = os.listdir(ir_path)
+        names = os.listdir(ir_path_root)
         
         for fileName in names:        
-            ir_path = os.path.join(ir_path, fileName)
-            vis_path = os.path.join(vis_path, fileName)
+            ir_path = os.path.join(ir_path_root, fileName)
+            vis_path = os.path.join(vis_path_root, fileName)            
 
             #红外输入是RGB
             if opt.IR_IS_RGB:
