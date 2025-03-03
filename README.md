@@ -22,13 +22,15 @@ matplotlib 3.7.5
 
 #### The pre-trained model is avaiable in the folder "model"
 
-### IVIF task:
+### Infrared and Visible Image Fusion (IVIF):
+
+(If visible images are stored in the grayscale format, please remove the '--VIS_IS_RGB' prompt.)
 
 ```
 python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
-### MEIF task:
+### Multi-Exposure Image Fusion (MEIF):
 
 ```
 python test.py  --test_ir_root "images/MEIF/ir" --test_vis_root "images/MEIF/vis" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
