@@ -11,7 +11,7 @@ This is the offical implementation for the paper titled "One Model for ALL: Low-
 [Paper](https://arxiv.org/abs/2502.19854)
 
 ## 2 Environment
-Setup the required anaconda environment by running the following prompts (Anaconda):
+You can setup the required Anaconda environment by running the following prompts:
 
 ```
 conda create -n GIFNet python=3.8.17
