@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 The **single required checkpoint** is avaiable in the folder "model"
 
-### Infrared and Visible Image Fusion (IVIF):
+### 3.1 Infrared and Visible Image Fusion (IVIF):
 
 (If visible images are stored in the grayscale format, please remove the '--VIS_IS_RGB' prompt.)
 
@@ -31,26 +31,31 @@ The **single required checkpoint** is avaiable in the folder "model"
 python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
-### Multi-Focus Image Fusion (MFIF):
+### 3.2 Multi-Focus Image Fusion (MFIF):
 
 ```
 python test.py  --test_ir_root "images/MFIF/nf" --test_vis_root "images/MFIF/ff" --save_path "outputsMFIF" --IR_IS_RGB --VIS_IS_RGB
 ```
 
-### Multi-Exposure Image Fusion (MEIF):
+### 3.3 Multi-Exposure Image Fusion (MEIF):
 
 ```
 python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
 ```
 
-### Medical Image Fusion:
+### 3.4 Medical Image Fusion:
 
-**Note that, I updated the "test.py" file on 2025/03/04.**
+**The "test.py" file is updated on 2025/03/04.**
 
 ```
 python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medical/mri" --save_path "outputsMedical" --IR_IS_RGB
 ```
 
+### 3.5 Near-Infrared and Visible Image Fusion (NIR-VIS)
+
+```
+python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-VIS/vis" --save_path "outputsNIR-VIS" --VIS_IS_RGB
+```
 
 More is coming...
 
