@@ -32,15 +32,25 @@ python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis
 ```
 
 ### Multi-Focus Image Fusion (MFIF):
+
 ```
-python test.py  --test_ir_root "images/MFIF/ir" --test_vis_root "images/MFIF/vis" --save_path "outputsMFIF" --IR_IS_RGB --VIS_IS_RGB
+python test.py  --test_ir_root "images/MFIF/nf" --test_vis_root "images/MFIF/ff" --save_path "outputsMFIF" --IR_IS_RGB --VIS_IS_RGB
 ```
 
 ### Multi-Exposure Image Fusion (MEIF):
 
 ```
-python test.py  --test_ir_root "images/MEIF/ir" --test_vis_root "images/MEIF/vis" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
+python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
 ```
+
+### Medical Image Fusion:
+
+**Note that, I updated the "test.py" file on 2025/03/04.**
+
+```
+python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medical/mri" --save_path "outputsMedical" --IR_IS_RGB
+```
+
 
 More is coming...
 

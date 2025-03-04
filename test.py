@@ -174,7 +174,11 @@ def main():
                 #都是RGB，两者融合
                 if opt.IR_IS_RGB and opt.VIS_IS_RGB:
                     vi_img_cb, vi_img_cr = fuse_cb_cr(vi_img_cb, vi_img_cr, ir_img_cb, ir_img_cr);
-                #否则，默认保留可见光的cb和cr.
+                elif  opt.IR_IS_RGB:
+                #ir是rgb，换成ir的
+                    vi_img_cb = ir_img_cb
+                    vi_img_cr = ir_img_cr
+                #否则，默认保留可见光的cb和cr.                
             
             ir_img = transform(ir_img)
             vis_img = transform(vis_img)        
