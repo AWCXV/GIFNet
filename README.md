@@ -5,7 +5,7 @@
   <p>Fig. Supporting single-modality tasks, the adopted low-level interaction between fusion tasks advances the learning of task-agnostic image features, leading to more generalised and efficient image fusion. </p>
 </div>
 
-## 1 GIFNet
+## 1 GIFNet [CVPR 2025]
 This is the offical implementation for the paper titled "One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion".
 
 [Paper](https://arxiv.org/abs/2502.19854)
