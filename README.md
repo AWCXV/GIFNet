@@ -19,7 +19,7 @@ conda activate GIFNet
 pip install -r requirements.txt
 ```
 
-## 3 Usage
+## 3 Test
 
 The **single required checkpoint** is avaiable in the folder "model"
 
@@ -59,20 +59,24 @@ python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-
 
 More is coming...
 
-## 4 Announcement
+## 4 Training
+
+Coming...
+
+## 5 Announcement
 - 2025-02-27 This paper has been accepted by CVPR 2025.
 
-## 5 Contact Informaiton
+## 6 Contact Informaiton
 If you have any questions, please contact me at <chunyang_cheng@163.com>.
 
-## 6 Highlight
+## 7 Highlight
 
 - **Collaborative Training**: Uniquely demonstrates that collaborative training between low-level fusion tasks yields significant performance improvements by leveraging cross-task synergies.
 - **Bridging the Domain Gap**: Introduces a reconstruction task and an augmented RGB-focused joint dataset to improve feature alignment and facilitate effective cross-task collaboration, enhancing model robustness.
 - **Versatility**: Advances versatility over multi-task fusion methods by reducing computational costs and eliminating the need for task-specific adaptation.
 - **Single-Modality Enhancement**: Pioneers the integration of image fusion with single-modality enhancement, broadening the flexibility and adaptability of fusion models.
 
-### 7 Citation
+### 8 Citation
 If this work is helpful to you, please cite it as:
 ```
 @inproceedings{cheng2025gifnet,
