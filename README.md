@@ -57,7 +57,7 @@ python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medi
 python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-VIS/vis" --save_path "outputsNIR-VIS" --VIS_IS_RGB
 ```
 
-More is coming...
+### 3.6 Remote Sensing
 
 ## 4 Training
 
