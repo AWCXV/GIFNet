@@ -45,7 +45,7 @@ python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue"
 
 ### 3.4 Medical Image Fusion:
 
-**The "test.py" file is updated on 2025/03/04.**
+**The "test.py" file is updated a little on 2025/03/04.**
 
 ```
 python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medical/mri" --save_path "outputsMedical" --IR_IS_RGB
@@ -58,6 +58,25 @@ python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-
 ```
 
 ### 3.6 Remote Sensing
+
+**The "test.py" file is updated a little on 2025/03/11.**
+
+Step1 : Seprately fuse different bands of the multispectral image with the panchromatic image.
+
+**Python code**
+```
+python test.py  --test_ir_root "images/Remote/MS_band1" --test_vis_root "images/Remote/PAN" --save_path "outputsRemoteBand1"
+python test.py  --test_ir_root "images/Remote/MS_band2" --test_vis_root "images/Remote/PAN" --save_path "outputsRemoteBand2"
+python test.py  --test_ir_root "images/Remote/MS_band3" --test_vis_root "images/Remote/PAN" --save_path "outputsRemoteBand3"
+python test.py  --test_ir_root "images/Remote/MS_band4" --test_vis_root "images/Remote/PAN" --save_path "outputsRemoteBand4"
+```
+
+Step2: Aggregate the separate fused channels together
+
+**Matlab code**
+```
+separateChannelsIntoFused
+```
 
 ## 4 Training
 
