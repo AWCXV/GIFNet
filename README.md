@@ -83,6 +83,7 @@ Matlab_SeparateChannelsIntoFused
 Coming...
 
 ## 5 Announcement
+- 2025-03-11 The test code for all image fusion tasks is now available.
 - 2025-02-27 This paper has been accepted by CVPR 2025.
 
 ## 6 Contact Informaiton
