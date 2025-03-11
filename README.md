@@ -13,7 +13,7 @@ This is the offical implementation for the paper titled "One Model for ALL: Low-
 ## 2 Environment
 You can setup the required Anaconda environment by running the following prompts:
 
-```
+```cpp
 conda create -n GIFNet python=3.8.17
 conda activate GIFNet
 pip install -r requirements.txt
@@ -27,19 +27,19 @@ The **single required checkpoint** is avaiable in the folder "model"
 
 (If visible images are stored in the grayscale format, please remove the '--VIS_IS_RGB' prompt.)
 
-```
+```cpp
 python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
 ### 3.2 Multi-Focus Image Fusion (MFIF):
 
-```
+```cpp
 python test.py  --test_ir_root "images/MFIF/nf" --test_vis_root "images/MFIF/ff" --save_path "outputsMFIF" --IR_IS_RGB --VIS_IS_RGB
 ```
 
 ### 3.3 Multi-Exposure Image Fusion (MEIF):
 
-```
+```cpp
 python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
 ```
 
@@ -47,13 +47,13 @@ python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue"
 
 **The "test.py" file is updated a little on 2025/03/04.**
 
-```
+```cpp
 python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medical/mri" --save_path "outputsMedical" --IR_IS_RGB
 ```
 
 ### 3.5 Near-Infrared and Visible Image Fusion (NIR-VIS)
 
-```
+```cpp
 python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-VIS/vis" --save_path "outputsNIR-VIS" --VIS_IS_RGB
 ```
 
@@ -61,10 +61,10 @@ python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-
 
 **The "test.py" file is updated a little on 2025/03/11.**
 
-Step1 : Seprately fuse different bands of the multispectral image with the panchromatic image.
+Step1 : Seprately fuse different bands of the multispectral image with the panchromatic image
 
-**Python code**
-```
+(Python)
+```cpp
 python test.py  --test_ir_root "images/Remote/MS_band1" --test_vis_root "images/Remote/PAN" --save_path "outputsRemoteBand1"
 python test.py  --test_ir_root "images/Remote/MS_band2" --test_vis_root "images/Remote/PAN" --save_path "outputsRemoteBand2"
 python test.py  --test_ir_root "images/Remote/MS_band3" --test_vis_root "images/Remote/PAN" --save_path "outputsRemoteBand3"
@@ -73,7 +73,7 @@ python test.py  --test_ir_root "images/Remote/MS_band4" --test_vis_root "images/
 
 Step2: Aggregate the separate fused channels together
 
-**Matlab code**
+(Matlab Environment)
 ```
 separateChannelsIntoFused
 ```
