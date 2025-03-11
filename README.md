@@ -75,7 +75,7 @@ Step2: Aggregate the separate fused channels together
 
 (Matlab Environment)
 ```
-separateChannelsIntoFused
+Matlab_SeparateChannelsIntoFused
 ```
 
 ## 4 Training
