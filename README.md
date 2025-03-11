@@ -57,7 +57,7 @@ python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medi
 python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-VIS/vis" --save_path "outputsNIR-VIS" --VIS_IS_RGB
 ```
 
-### 3.6 Remote Sensing
+### 3.6 Remote Sensing Image Fusion (Remote)
 
 **The "test.py" file is updated a little on 2025/03/11.**
 

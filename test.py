@@ -203,7 +203,9 @@ def main():
                 fuseImage = ycbcr_to_rgb(fused_y_or_gray, vi_img_cb, vi_img_cr);        
                 fuseImage.save(outputFuse_path);        
             else:
-            	cv2.imwrite(outputFuse_path, fused_y_or_gray)
+                fused_y_or_gray = fused_y_or_gray.astype(np.uint8)
+                #print(fused_y_or_gray)
+                cv2.imwrite(outputFuse_path, fused_y_or_gray)
                 
             print('Image -> '+ fileName + ' Done......')    
             
