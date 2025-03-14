@@ -89,6 +89,8 @@ Coming...
 ## 6 Contact Informaiton
 If you have any questions, please contact me at <chunyang_cheng@163.com>.
 
+(Please clearly note your identity, institution, purpose)
+
 ## 7 Highlight
 
 - **Collaborative Training**: Uniquely demonstrates that collaborative training between low-level fusion tasks yields significant performance improvements by leveraging cross-task synergies.
