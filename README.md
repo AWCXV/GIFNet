@@ -80,7 +80,9 @@ Matlab_SeparateChannelsIntoFused
 
 ## 4 Training
 
-Training Set: [Baidu Drive (code: x2i6)](https://pan.baidu.com/s/16lCjucwC476dFuxtfFbP3g?pwd=x2i6)
+### Training Set
+- [Baidu Drive (code: x2i6)](https://pan.baidu.com/s/16lCjucwC476dFuxtfFbP3g?pwd=x2i6)
+- [Google Drive](https://drive.google.com/file/d/1REIsHqnXEmGGIs4SQoIquUJGzvHDDCUd/view?usp=sharing)
 
 Coming...
 
