@@ -105,10 +105,10 @@ If you have any questions, please contact me at <chunyang_cheng@163.com>.
 ### 8 Citation
 If this work is helpful to you, please cite it as:
 ```
-@inproceedings{cheng2025gifnet,
+@article{cheng2025cvpr_gifnet,
   title={One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion},
-  author={Cheng, Chunyang and Xu, Tianyang and Feng, Zhenhua and Wu, Xiaojun and Tang, Zhangyong and Li, Hui and Zhang, Zeyang and Atito, Sara and Awais, Muhammad and Kittler, Josef},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  author={Cheng, Chunyang and Xu, Tianyang and Feng, Zhenhua and Wu, Xiaojun and Li, Hui and Zhang, Zeyang and Atito, Sara and Awais, Muhammad and Kittler, Josef and others},
+  journal={arXiv preprint arXiv:2502.19854},
   year={2025}
 }
 ```
