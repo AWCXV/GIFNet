@@ -23,39 +23,46 @@ pip install -r requirements.txt
 
 The **single required checkpoint** is avaiable in the folder "model"
 
-- <img width="20" src="images/task.png"> Infrared and Visible Image Fusion (IVIF):
+Arguments:
 
-(If visible images are stored in the grayscale format, please remove the '--VIS_IS_RGB' prompt.)
+```cpp
+"--test_ir_root": Root path for the infrared input.
+"--test_vis_root": Root path for the visible input.
+"--VIS_IS_RGB": Visible input is stored in the RGB format.
+"--IR_IS_RGB": Infrared input is stored in the RGB format.
+```
+
+<img width="20" src="images/task.png"> Infrared and Visible Image Fusion (IVIF):
 
 ```cpp
 python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
-- <img width="20" src="images/task.png"> Multi-Focus Image Fusion (MFIF):
+<img width="20" src="images/task.png"> Multi-Focus Image Fusion (MFIF):
 
 ```cpp
 python test.py  --test_ir_root "images/MFIF/nf" --test_vis_root "images/MFIF/ff" --save_path "outputsMFIF" --IR_IS_RGB --VIS_IS_RGB
 ```
 
-- <img width="20" src="images/task.png"> Multi-Exposure Image Fusion (MEIF):
+<img width="20" src="images/task.png"> Multi-Exposure Image Fusion (MEIF):
 
 ```cpp
 python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
 ```
 
-- <img width="20" src="images/task.png"> Medical Image Fusion:
+<img width="20" src="images/task.png"> Medical Image Fusion:
 
 ```cpp
 python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medical/mri" --save_path "outputsMedical" --IR_IS_RGB
 ```
 
-- <img width="20" src="images/task.png"> Near-Infrared and Visible Image Fusion (NIR-VIS)
+<img width="20" src="images/task.png"> Near-Infrared and Visible Image Fusion (NIR-VIS)
 
 ```cpp
 python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-VIS/vis" --save_path "outputsNIR-VIS" --VIS_IS_RGB
 ```
 
-- <img width="20" src="images/task.png"> Remote Sensing Image Fusion (Remote)
+<img width="20" src="images/task.png"> Remote Sensing Image Fusion (Remote)
 
 Step1 : Seprately fuse different bands of the multispectral image with the panchromatic image
 
