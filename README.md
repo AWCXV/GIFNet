@@ -78,7 +78,7 @@ Step2: Aggregate the separate fused channels together
 Matlab_SeparateChannelsIntoFused
 ```
 
-## <img width="32" alt="MMDRFuse Icon" src="figs/train.png"> 4 Training 
+## <img width="32" src="images/train.png"> 4 Training 
 
 ### Training Set
 - [Baidu Drive (code: x2i6)](https://pan.baidu.com/s/16lCjucwC476dFuxtfFbP3g?pwd=x2i6)
