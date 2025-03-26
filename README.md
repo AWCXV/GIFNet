@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 The **single required checkpoint** is avaiable in the folder "model"
 
-Arguments:
+<img width="20" src="images/set.png"> Arguments:
 
 ```cpp
 "--test_ir_root": Root path for the infrared input.
@@ -89,23 +89,23 @@ Matlab_SeparateChannelsIntoFused
 
 Coming...
 
-## 5 Announcement
+## <img width="32" src="images/announcement.png"> Announcement
 - 2025-03-11 The test code for all image fusion tasks is now available.
 - 2025-02-27 This paper has been accepted by CVPR 2025.
 
-## 6 Contact Informaiton
+## <img width="32" src="images/email.png"> Contact Informaiton
 If you have any questions, please contact me at <chunyang_cheng@163.com>.
 
 (Please clearly note your identity, institution, purpose)
 
-## 7 Highlight
+## <img width="32" src="images/highlight.png"> Highlight
 
 - **Collaborative Training**: Uniquely demonstrates that collaborative training between low-level fusion tasks yields significant performance improvements by leveraging cross-task synergies.
 - **Bridging the Domain Gap**: Introduces a reconstruction task and an augmented RGB-focused joint dataset to improve feature alignment and facilitate effective cross-task collaboration, enhancing model robustness.
 - **Versatility**: Advances versatility over multi-task fusion methods by reducing computational costs and eliminating the need for task-specific adaptation.
 - **Single-Modality Enhancement**: Pioneers the integration of image fusion with single-modality enhancement, broadening the flexibility and adaptability of fusion models.
 
-### 8 Citation
+### <img width="32" src="images/email.png"> Citation
 If this work is helpful to you, please cite it as:
 ```
 @article{cheng2025cvpr_gifnet,
