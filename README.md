@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 The **single required checkpoint** is avaiable in the folder "model"
 
-<img width="20" src="images/set.png"> Arguments:
+<img width="20" src="images/set1.png"> Arguments:
 
 ```cpp
 "--test_ir_root": Root path for the infrared input.
@@ -78,7 +78,7 @@ Matlab_SeparateChannelsIntoFused
 
 ## <img width="32" src="images/train.png"> Training 
 
-### <img width="20" src="images/dataset.png"> Training Set
+### <img width="20" src="images/dataset1.png"> Training Set
 - [Baidu Drive (code: x2i6)](https://pan.baidu.com/s/16lCjucwC476dFuxtfFbP3g?pwd=x2i6)
 - [Google Drive](https://drive.google.com/file/d/1REIsHqnXEmGGIs4SQoIquUJGzvHDDCUd/view?usp=sharing)
 
