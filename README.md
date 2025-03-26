@@ -5,7 +5,7 @@ This is the offical implementation for the paper titled "One Model for ALL: Low-
 
 [Paper](https://arxiv.org/abs/2502.19854)
 
-## <img width="32" src="images/environment.png">  Environment
+## <img width="40" src="images/environment.png">  Environment
 You can setup the required Anaconda environment by running the following prompts:
 
 ```cpp
