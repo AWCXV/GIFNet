@@ -100,7 +100,7 @@ If you have any questions, please contact me at <chunyang_cheng@163.com>.
 - **Versatility**: Advances versatility over multi-task fusion methods by reducing computational costs and eliminating the need for task-specific adaptation.
 - **Single-Modality Enhancement**: Pioneers the integration of image fusion with single-modality enhancement, broadening the flexibility and adaptability of fusion models.
 
-### <img width="32" src="images/email.png"> Citation
+### <img width="32" src="images/citation.png"> Citation
 If this work is helpful to you, please cite it as:
 ```
 @article{cheng2025cvpr_gifnet,
