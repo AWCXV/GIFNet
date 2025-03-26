@@ -5,12 +5,12 @@
   <p>Fig. Supporting single-modality tasks, the adopted low-level interaction between fusion tasks advances the learning of task-agnostic image features, leading to more generalised and efficient image fusion. </p>
 </div>
 
-## 1 GIFNet [CVPR 2025]
+## GIFNet [CVPR 2025]
 This is the offical implementation for the paper titled "One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion".
 
 [Paper](https://arxiv.org/abs/2502.19854)
 
-## 2 Environment
+## <img width="32" src="images/environment.png">  Environment
 You can setup the required Anaconda environment by running the following prompts:
 
 ```cpp
@@ -19,11 +19,11 @@ conda activate GIFNet
 pip install -r requirements.txt
 ```
 
-## 3 Test
+## <img width="32" src="images/test.png"> Test
 
 The **single required checkpoint** is avaiable in the folder "model"
 
-### 3.1 Infrared and Visible Image Fusion (IVIF):
+- Infrared and Visible Image Fusion (IVIF):
 
 (If visible images are stored in the grayscale format, please remove the '--VIS_IS_RGB' prompt.)
 
@@ -31,19 +31,19 @@ The **single required checkpoint** is avaiable in the folder "model"
 python test.py  --test_ir_root "images/IVIF/ir" --test_vis_root "images/IVIF/vis" --save_path "outputsIVIF" --VIS_IS_RGB 
 ```
 
-### 3.2 Multi-Focus Image Fusion (MFIF):
+- Multi-Focus Image Fusion (MFIF):
 
 ```cpp
 python test.py  --test_ir_root "images/MFIF/nf" --test_vis_root "images/MFIF/ff" --save_path "outputsMFIF" --IR_IS_RGB --VIS_IS_RGB
 ```
 
-### 3.3 Multi-Exposure Image Fusion (MEIF):
+- Multi-Exposure Image Fusion (MEIF):
 
 ```cpp
 python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue" --save_path "outputsMEIF" --IR_IS_RGB --VIS_IS_RGB 
 ```
 
-### 3.4 Medical Image Fusion:
+- Medical Image Fusion:
 
 **The "test.py" file is updated a little on 2025/03/04.**
 
@@ -51,13 +51,13 @@ python test.py  --test_ir_root "images/MEIF/oe" --test_vis_root "images/MEIF/ue"
 python test.py  --test_ir_root "images/Medical/pet" --test_vis_root "images/Medical/mri" --save_path "outputsMedical" --IR_IS_RGB
 ```
 
-### 3.5 Near-Infrared and Visible Image Fusion (NIR-VIS)
+- Near-Infrared and Visible Image Fusion (NIR-VIS)
 
 ```cpp
 python test.py  --test_ir_root "images/NIR-VIS/nir" --test_vis_root "images/NIR-VIS/vis" --save_path "outputsNIR-VIS" --VIS_IS_RGB
 ```
 
-### 3.6 Remote Sensing Image Fusion (Remote)
+- Remote Sensing Image Fusion (Remote)
 
 **The "test.py" file is updated a little on 2025/03/11.**
 
@@ -78,7 +78,7 @@ Step2: Aggregate the separate fused channels together
 Matlab_SeparateChannelsIntoFused
 ```
 
-## <img width="32" src="images/train.png"> 4 Training 
+## <img width="32" src="images/train.png"> Training 
 
 ### Training Set
 - [Baidu Drive (code: x2i6)](https://pan.baidu.com/s/16lCjucwC476dFuxtfFbP3g?pwd=x2i6)
