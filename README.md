@@ -25,6 +25,7 @@ The **single required checkpoint** is avaiable in the folder "model"
 "--test_vis_root": Root path for the visible input.
 "--VIS_IS_RGB": Visible input is stored in the RGB format.
 "--IR_IS_RGB": Infrared input is stored in the RGB format.
+"--save_path": Root path for the fused image.
 ```
 
 <img width="20" src="images/task.png"> Infrared and Visible Image Fusion (IVIF):
