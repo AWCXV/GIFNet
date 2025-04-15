@@ -86,13 +86,13 @@ Matlab_SeparateChannelsIntoFused
 <img width="20" src="images/task.png"> Instructions
 1. Extract training data from the zip and put them in the "train_data" folder.
 
-2. Run the following prompts to start the training (important parameters can be modified in the "args.py" file):
+2. Run the following prompt to start the training (important parameters can be modified in the "args.py" file):
 
 ```cpp
 python train.py --trainDataRoot "./train_data"
 ```
 
-The trained models will be saved in the "model" file (automatically created).
+The trained models will be saved in the "model" folder (automatically created).
 
 ## <img width="32" src="images/announcement.png"> Announcement
 - 2025-04-15 The training code is now available.
