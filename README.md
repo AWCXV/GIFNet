@@ -83,9 +83,19 @@ Matlab_SeparateChannelsIntoFused
 - [Baidu Drive (code: x2i6)](https://pan.baidu.com/s/16lCjucwC476dFuxtfFbP3g?pwd=x2i6)
 - [Google Drive](https://drive.google.com/file/d/1REIsHqnXEmGGIs4SQoIquUJGzvHDDCUd/view?usp=sharing)
 
-Coming...
+<img width="20" src="images/task.png"> Instructions
+1. Extract training data from the zip and put them in the "train_data" folder.
+
+2. Run the following prompts to start the training (important parameters can be modified in the "args.py" file):
+
+```cpp
+python train.py --trainDataRoot "./train_data"
+```
+
+The trained models will be saved in the "model" file (automatically created).
 
 ## <img width="32" src="images/announcement.png"> Announcement
+- 2025-04-15 The training code is now available.
 - 2025-03-11 The test code for all image fusion tasks is now available.
 - 2025-02-27 This paper has been accepted by CVPR 2025.
 

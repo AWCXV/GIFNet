@@ -1,0 +1,1 @@
+Download the training data from the given links. Then, put "visible", "infrared", "visible_focus_near", and "visible_focus_far" here.
