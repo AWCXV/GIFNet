@@ -3,7 +3,9 @@
 ## GIFNet [CVPR 2025]
 This is the offical implementation for the paper titled "One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion".
 
-[Paper](https://arxiv.org/abs/2502.19854)
+[Paper (Arxiv Version)](https://arxiv.org/abs/2502.19854)
+
+**Supplementary materials are now avaiable at this [URL (Google Drive)](https://drive.google.com/file/d/1z8PmxACS2lFBd4MH4y7CQ8SO6DM9RzuC/view?usp=sharing)**.
 
 ## <img width="40" src="images/environment.png">  Environment
 You can setup the required Anaconda environment by running the following prompts:
