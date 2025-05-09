@@ -79,11 +79,11 @@ Matlab_SeparateChannelsIntoFused
 
 ## <img width="32" src="images/train.png"> Training 
 
-### <img width="20" src="images/dataset1.png"> Training Set
+<img width="20" src="images/dataset1.png"> Training Set
 - [Baidu Drive (code: x2i6)](https://pan.baidu.com/s/16lCjucwC476dFuxtfFbP3g?pwd=x2i6)
 - [Google Drive](https://drive.google.com/file/d/1REIsHqnXEmGGIs4SQoIquUJGzvHDDCUd/view?usp=sharing)
 
-### <img width="20" src="images/task.png"> Instructions
+<img width="20" src="images/task.png"> Instructions
 1. Extract training data from the zip and put them in the "train_data" folder.
 
 2. Run the following prompt to start the training (important parameters can be modified in the "args.py" file):
