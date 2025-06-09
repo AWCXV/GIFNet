@@ -3,9 +3,7 @@
 ## GIFNet [CVPR 2025]
 This is the offical implementation for the paper titled "One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion".
 
-[Paper (Arxiv Version)](https://arxiv.org/abs/2502.19854)
-
-**Supplementary materials are now avaiable at this [URL (Google Drive)](https://drive.google.com/file/d/1z8PmxACS2lFBd4MH4y7CQ8SO6DM9RzuC/view?usp=sharing)**.
+[Paper & Supplement](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_One_Model_for_ALL_Low-Level_Task_Interaction_Is_a_Key_CVPR_2025_paper.html)
 
 ## <img width="40" src="images/environment.png">  Environment
 You can setup the required Anaconda environment by running the following prompts:
@@ -116,10 +114,12 @@ If you have any questions, please contact me at <chunyang_cheng@163.com>.
 ### <img width="32" src="images/citation.png"> Citation
 If this work is helpful to you, please cite it as:
 ```
-@article{cheng2025cvpr_gifnet,
-  title={One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion},
-  author={Cheng, Chunyang and Xu, Tianyang and Feng, Zhenhua and Wu, Xiaojun and Li, Hui and Zhang, Zeyang and Atito, Sara and Awais, Muhammad and Kittler, Josef and others},
-  journal={arXiv preprint arXiv:2502.19854},
-  year={2025}
+@InProceedings{Cheng_2025_CVPR,
+    author    = {Cheng, Chunyang and Xu, Tianyang and Feng, Zhenhua and Wu, Xiaojun and Tang, Zhangyong and Li, Hui and Zhang, Zeyang and Atito, Sara and Awais, Muhammad and Kittler, Josef},
+    title     = {One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {28102-28112}
 }
 ```
