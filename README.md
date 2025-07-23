@@ -5,6 +5,12 @@ This is the offical implementation for the paper titled "One Model for ALL: Low-
 
 [Paper & Supplement](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_One_Model_for_ALL_Low-Level_Task_Interaction_Is_a_Key_CVPR_2025_paper.html)
 
+<div align="center">
+  <img src="images/introduction.png" width="1000px" />
+  <p>"A comparison of the versatility and efficiency of advanced multi-task fusion methods and the proposed pixel-focused low-level interaction paradigm."</p>
+</div>
+
+
 ## <img width="40" src="images/environment.png">  Environment
 You can setup the required Anaconda environment by running the following prompts:
 
