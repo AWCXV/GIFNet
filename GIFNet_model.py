@@ -406,7 +406,7 @@ class Attention(nn.Module):
                 if self.conv_type in ['Conv', 'DWConv']:
                     conv_out = self.conv(V)
                     with torch.no_grad():
-                        conv_out_mfif = self.conv_mfif(V)
+                        conv_out_mfif = self.conv_mfif(V_mfif)
                     
                     out = self.proj(conv_out + attn_out)
                     with torch.no_grad():
